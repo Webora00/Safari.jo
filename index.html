@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبادرة سفاري | Safari Initiative</title>
+    <meta name="description" content="سفاري مبادرة سياحية بيئية أردنية انطلقت من عجلون لتعزيز السياحة البيئية والمغامرات.">
+    
+    <!-- ربط ملف التنسيق -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- خطوط جوجل (Cairo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- مكتبة الأيقونات (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- مكتبة الأنيميشن (AOS) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- خلفية الأنيميشن التفاعلية (Canvas) -->
+    <canvas id="canvas-bg"></canvas>
+
+    <!-- شريط التنقل (Navbar) -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="https://c.top4top.io/p_3666xmqcg1.jpeg" alt="Safari Logo Small" class="nav-logo">
+                <h1 class="nav-title">مبادرة سفاري</h1>
+            </div>
+            
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="active">الرئيسية</a></li>
+                    <li><a href="#about">عن المبادرة</a></li>
+                    <li><a href="#services">ماذا نقدم</a></li>
+                    <li><a href="#team">الفريق</a></li>
+                    <li><a href="#achievements">الإنجازات</a></li>
+                    <li><a href="#faq">الأسئلة الشائعة</a></li>
+                    <li><a href="#contact" class="btn-nav">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 1️⃣ الصفحة الرئيسية (Home) -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="zoom-in" data-aos-duration="1200">
+            <!-- اللوجو الدائري الكبير -->
+            <div class="main-logo-container">
+                <img src="https://c.top4top.io/p_3666xmqcg1.jpeg" alt="شعار مبادرة سفاري" class="main-logo-img">
+            </div>
+            
+            <h1 class="hero-title">مبادرة سفاري</h1>
+            <h2 class="hero-subtitle">Safari Initiative</h2>
+            
+            <p class="hero-text">
+                سفاري مبادرة سياحية بيئية أردنية انطلقت من عجلون، وهدفها إبراز جمال الطبيعة الأردنية من خلال رحلات ومسارات تجمع بين المغامرة، الاستكشاف، والتجربة السياحية الهادفة.
+                <br><br>
+                نسعى أن ننطلق من عجلون ونصل تدريجيًا إلى باقي محافظات الأردن، مع الالتزام بالسياحة المسؤولة واحترام البيئة والمجتمع المحلي.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">اكتشف المزيد</a>
+                <a href="#contact" class="btn btn-outline">انضم لرحلاتنا</a>
+            </div>
+        </div>
+        
+        <!-- مؤشر التمرير لأسفل -->
+        <a href="#about" class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </a>
+    </section>
+
+    <!-- 2️⃣ عن المبادرة (About Safari) -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">من نحن</span>
+                <h2 class="section-title">عن مبادرة سفاري</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text-box" data-aos="fade-right">
+                    <p class="lead-text">
+                        سفاري مبادرة تهتم بالسياحة البيئية والمغامرات الخفيفة والمتوسطة، وتركّز على خلق تجربة سياحية واعية، ممتعة، وآمنة، تعزز ارتباط الإنسان بالطبيعة وتحافظ على الهوية البيئية والثقافية للأماكن.
+                    </p>
+                </div>
+                
+                <div class="vision-mission-grid">
+                    <div class="vm-card" data-aos="flip-up" data-aos-delay="100">
+                        <div class="icon-wrapper"><i class="fas fa-seedling"></i></div>
+                        <h3>رؤيتنا</h3>
+                        <p>أن نكون مبادرة رائدة في السياحة البيئية والمغامرات في الأردن، ونقدّم تجربة سياحية قريبة من الطبيعة ذات أثر إيجابي ومستدام.</p>
+                    </div>
+                    
+                    <div class="vm-card" data-aos="flip-up" data-aos-delay="200">
+                        <div class="icon-wrapper"><i class="fas fa-bullseye"></i></div>
+                        <h3>رسالتنا</h3>
+                        <p>تقديم رحلات وتجارب سياحية آمنة وممتعة، تعرّف المشاركين على الطبيعة والتراث الأردني، وتعزز ثقافة الحفاظ على البيئة وروح المغامرة.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5️⃣ نطاق العمل (Our Scope) & 6️⃣ لماذا سفاري -->
+    <section id="scope-why" class="bg-pattern section-padding">
+        <div class="container">
+            <div class="row-flex">
+                <!-- لماذا سفاري -->
+                <div class="col-half" data-aos="fade-left">
+                    <h3 class="sub-heading">لماذا تختار سفاري؟ (Why Safari)</h3>
+                    <ul class="feature-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <strong>تنظيم عالي واهتمام بالسلامة</strong>
+                                <p>نهتم بأدق التفاصيل لضمان راحتكم.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-signs"></i>
+                            <div>
+                                <strong>مسارات مدروسة وواضحة</strong>
+                                <p>نختار الوجهات بعناية فائقة.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-brain"></i>
+                            <div>
+                                <strong>تجربة تجمع بين المتعة والمعرفة</strong>
+                                <p>استكشاف وتعلم في آن واحد.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-leaf"></i>
+                            <div>
+                                <strong>التزام بالحفاظ على البيئة</strong>
+                                <p>سياحة مسؤولة تحترم الطبيعة.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <strong>أجواء ودّية وروح جماعية</strong>
+                                <p>نخلق ذكريات لا تنسى معاً.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- نطاق العمل -->
+                <div class="col-half" data-aos="fade-right">
+                    <div class="scope-card">
+                        <i class="fas fa-map-marked-alt scope-icon"></i>
+                        <h3>نطاق العمل (Our Scope)</h3>
+                        <p>نبدأ من محافظة عجلون، ونسعى للتوسع تدريجيًا لتشمل رحلاتنا مختلف محافظات المملكة الأردنية الهاشمية.</p>
+                        <div class="jordan-map-abstract">
+                            <span class="dot ajloun"></span>
+                            <span class="pulse"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3️⃣ ماذا نقدم؟ (What We Offer) -->
+    <section id="services" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">خدماتنا</span>
+                <h2 class="section-title">ماذا نقدم؟</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="zoom-in-up">
+                    <div class="s-icon"><i class="fas fa-hiking"></i></div>
+                    <h4>رحلات ومسارات طبيعية</h4>
+                    <p>داخل عجلون وباقي المحافظات لاستكشاف الجمال الخفي.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in-up" data-aos-delay="100">
+                    <div class="s-icon"><i class="fas fa-mountain"></i></div>
+                    <h4>مغامرات خفيفة ومتوسطة</h4>
+                    <p>أنشطة مدروسة تناسب مختلف الأعمار والمستويات.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in-up" data-aos-delay="200">
+                    <div class="s-icon"><i class="fas fa-campground"></i></div>
+                    <h4>أيام عائلية وتجارب جماعية</h4>
+                    <p>أوقات ممتعة للعائلات والأصدقاء في أحضان الطبيعة.</p>
+                </div>
+                <div class="service-card" data-aos="zoom-in-up" data-aos-delay="300">
+                    <div class="s-icon"><i class="fas fa-camera-retro"></i></div>
+                    <h4>فعاليات سياحية وثقافية</h4>
+                    <p>دمج السياحة البيئية بالثقافة المحلية.</p>
+                </div>
+                <div class="service-card full-width" data-aos="zoom-in-up" data-aos-delay="400">
+                    <div class="s-icon"><i class="fas fa-hands-helping"></i></div>
+                    <h4>دعم المجتمع المحلي</h4>
+                    <p>التعاون مع المشاريع الصغيرة لتعزيز التنمية المستدامة.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7️⃣ إنجازات مبادرة سفاري -->
+    <section id="achievements" class="counter-section">
+        <div class="overlay-dark"></div>
+        <div class="container relative-z">
+            <div class="section-header white-header" data-aos="fade-up">
+                <h2 class="section-title" style="color: #fff;">إنجازات مبادرة سفاري</h2>
+                <div class="line white-line"></div>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-item" data-aos="fade-up">
+                    <i class="fas fa-flag-checkered"></i>
+                    <p>إطلاق المبادرة رسميًا من عجلون وانتشار الوعي بالسياحة البيئية</p>
+                </div>
+                <div class="achievement-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-route"></i>
+                    <p>تنظيم أولى الرحلات والمسارات بتجربة سياحية ممتعة واستكشافية</p>
+                </div>
+                <div class="achievement-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-people-carry"></i>
+                    <p>تعزيز التواصل مع المجتمع المحلي والحفاظ على المواقع الأثرية</p>
+                </div>
+                <div class="achievement-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-share-alt"></i>
+                    <p>توسيع شبكة المشاركين على وسائل التواصل لتشجيع السياحة الداخلية</p>
+                </div>
+                <div class="achievement-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-trash-alt"></i>
+                    <p>إطلاق حملات توعية بيئية لتعليم ممارسات صديقة للبيئة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9️⃣ فريق مبادرة سفاري (Our Team) -->
+    <section id="team" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">عائلتنا</span>
+                <h2 class="section-title">فريق مبادرة سفاري</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="team-container">
+                <!-- سارة -->
+                <div class="team-card" data-aos="fade-up">
+                    <div class="img-box">
+                        <img src="https://i.top4top.io/p_3666fpxsx1.jpeg" alt="سارة الصمادي">
+                    </div>
+                    <div class="content-box">
+                        <h3>سارة الصمادي</h3>
+                        <span class="role">مؤسسة مبادرة سفاري – عجلون</span>
+                        <p>أعمل على تعزيز السياحة البيئية والطبيعية في الأردن من خلال رحلات ومسارات تجمع بين المغامرة والاستكشاف.</p>
+                    </div>
+                </div>
+
+                <!-- عبدالله -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img-box">
+                        <img src="https://b.top4top.io/p_36669cs6k1.jpeg" alt="عبدالله عصام البعول">
+                    </div>
+                    <div class="content-box">
+                        <h3>عبدالله عصام البعول</h3>
+                        <span class="role">نائب مدير مبادرة سفاري</span>
+                        <p>خريج تربية رياضية، حاصل على شهادة تدريب شخصي، العمر 24 سنة، مهتم بتطوير الأنشطة الرياضية والمغامرات الآمنة.</p>
+                    </div>
+                </div>
+
+                <!-- بشرى -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="img-box">
+                        <img src="https://i.top4top.io/p_3666xw53i1.jpeg" alt="بشرى السيوف">
+                    </div>
+                    <div class="content-box">
+                        <h3>بشرى السيوف</h3>
+                        <span class="role">مسؤولة تنسيق المتطوعين</span>
+                        <p>أسعى لتطوير نفسي وتطوير المجتمع، وأتميز بالتنظيم والعمل بروح الفريق.</p>
+                    </div>
+                </div>
+
+                <!-- إيناس -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="img-box">
+                        <img src="https://b.top4top.io/p_36664hepg1.jpeg" alt="إيناس العمايرة">
+                    </div>
+                    <div class="content-box">
+                        <h3>إيناس العمايرة</h3>
+                        <span class="role">مسؤولة الإعلام والتصوير</span>
+                        <p>أعمل على توثيق الأنشطة وإيصال رسالة المبادرة بشكل إبداعي ومؤثر.</p>
+                    </div>
+                </div>
+
+                <!-- راما -->
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="img-box">
+                        <img src="https://f.top4top.io/p_3666tj17t1.jpeg" alt="راما عنانبة">
+                    </div>
+                    <div class="content-box">
+                        <h3>راما عنانبة</h3>
+                        <span class="role">منسقة الأنشطة والبرامج</span>
+                        <p>متطوعة وعضو فعال في مؤسسات المجتمع، أساهم في تنظيم البرامج والأنشطة الميدانية.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8️⃣ الأسئلة الشائعة (FAQ) -->
+    <section id="faq" class="section-padding">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">لديك استفسار؟</span>
+                <h2 class="section-title">الأسئلة الشائعة</h2>
+                <div class="line"></div>
+            </div>
+
+            <div class="accordion-wrapper">
+                <!-- سيتم توليد الأسئلة بواسطة JavaScript لضمان كود نظيف -->
+            </div>
+        </div>
+    </section>
+
+    <!-- 9️⃣ تواصل معنا (Contact Us) -->
+    <section id="contact" class="section-padding footer-section">
+        <div class="container">
+            <div class="contact-wrapper" data-aos="zoom-in">
+                <div class="contact-header">
+                    <h2>تواصل معنا</h2>
+                    <p>نحن هنا للإجابة على استفساراتكم وحجز مغامرتكم القادمة</p>
+                </div>
+                
+                <div class="contact-info-grid">
+                    <div class="c-item">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <h4>الموقع</h4>
+                        <p>الأردن – عجلون</p>
+                    </div>
+                    <div class="c-item">
+                        <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                        <h4>رقم الهاتف</h4>
+                        <a href="tel:0779676022">0779676022</a>
+                    </div>
+                    <div class="c-item">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <h4>البريد الإلكتروني</h4>
+                        <a href="mailto:alsmadisarah2@gmail.com">alsmadisarah2@gmail.com</a>
+                    </div>
+                </div>
+
+                <div class="social-area">
+                    <h3>تابعونا على</h3>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/safarii_200" target="_blank" class="s-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/مبادرة-سفاري-8695b93a3" target="_blank" class="s-icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2026 جميع الحقوق محفوظة | <strong>مبادرة سفاري</strong></p>
+        </div>
+    </section>
+
+    <!-- ربط ملفات الجافاسكريبت -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
